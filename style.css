@@ -1,0 +1,176 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hr-style{
+    border: 5px dotted #511281;
+    border-bottom: none;
+    width:60px;
+}
+
+.hr-ver{
+    border: 1px solid #ababab;
+    border-bottom: none;
+    
+}
+/*header design starts here*/
+
+header{
+    background-image: url('/imgs/banner.png');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-icon{
+    color: #fff;
+}
+
+#banner{
+
+    padding: 1% 10%;
+}
+
+.banner-container{
+    height:100vh;
+}
+
+.banner-content h5{
+
+    font-family: 'Handlee', cursive;
+    font-size: 3.5rem;
+    color: #21094E;
+}
+
+.nav-link{
+    color: white;
+    margin: 5px 0;
+}
+
+.nav-link:hover{
+    background-color: #f55c47;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+/*header design ends here*/
+
+/*about me design starts here*/
+
+#about-me{
+    padding: 5% 10%;
+    background-color: #f4a9a8;
+}
+
+.my-img{
+    width: 100px;
+    height: auto;
+}
+
+.about-me-hr{
+    border: 1px solid #21094E;
+    border-bottom: none;
+}
+
+.about-me-desc{
+    text-align: left;
+    font-size: 16px;
+
+}
+
+.about-me-desc p a{
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.about-me-desc p a:hover{
+    color:#21094E;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+/*about me design ends here*/
+
+/*service section design starts here*/
+
+#service{
+    padding: 5% 10%;
+    background-color:#c8c2bc;
+}
+
+.service-col{
+    border: 1px solid #564a4a;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 5px 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.sicon-style{
+    background-color: #f21170;
+    color: white;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/*service section design ends here*/
+
+/*skills section design starts here*/
+
+#skills{
+    padding: 5% 10%;
+    background-color: #aaaaaa;
+}
+
+/*skills section design ends here*/
+
+/* Contact design starts here*/
+
+#contact{
+    padding: 5% 10%;
+    background-color: #e1e5ea;
+}
+
+/*Contact design ends here*/
+
+/*footer design starts here*/
+
+footer{
+    padding: 2% 5%;
+    background-color: #333;
+    font-size: 18px;
+}
+
+i.Socialicon{
+    color: white;
+    margin: 0 5px !important;
+}
+
+i.Socialicon:hover{
+
+    color:tomato;
+    transition: 0.4s;
+}
+
+/*footer design ends here*/
